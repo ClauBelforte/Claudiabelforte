@@ -473,7 +473,7 @@ section.micv {
    text-align: center;
 }
 
-.boton button {
+.boton .botoncvv{
    width: 250px;
    height: 50px;
    background: var(--violeta);
@@ -486,7 +486,7 @@ section.micv {
    margin-top: 20px;
    cursor: pointer;
    transition: 0.5s;
-   
+   padding-top: 7px;
 }
 
 .cv {
@@ -495,8 +495,13 @@ section.micv {
    justify-content: space-evenly;
 }
 
-.boton button:hover {
+.boton .botoncvv:hover {
    background: var(--violetaoscuro);
+   text-decoration: none;
+}
+
+.botoncvv a {
+   text-decoration: none;
 }
 
 .footer {

@@ -56,49 +56,37 @@
         </div>
         <div class="skew-abajo"></div>
        
-    
-    <section id="acerca" class="acerca">
-        <div class="titulo-acerca">
-         <h2>Acerca de mí</h2>
-         <hr>
-        </div>
-    
-         <div class="box-acerca">
-          <div class="card-acerca">
-            <div class="card-img"><img src="img/claupc.gif" alt="" ></div>
-            <div class="acerca-text">
-             <p>¡Hola! Gracias por visitar mi portfolio.
-                Mi nombre es <b>Claudia</b>, tengo 25 años, vivo de CABA, Argentina y actualmente soy estudiante autodidacta de desarrollo Front-end. 
-                Quiero desarrollar mi carrera en IT porque es lo que más me apasiona ya que me considero muy entusiasta y creativa, y siento que esta carrera permite dejar fluir todas mis cualidades y me permite esplotar al 100% mi creatividad. 
-                
-              </p>
-              <p>El desarrollo web es una parte fundamental de mi día a día y lo que más quisiera hacer es poder vivir de ello.</p>
-              
+        <section id="micv" class="micv">
+           
+            <div> <h2>Mi CV</h2>
+            <hr>
+            <div class="cv">
+            <div class="boton">
+                <p>Podés descargar mi CV y ver tanto mis datos, como mi formación académica, mucho más detallada.
+                </p>  <a class="botoncvv" target="_blank" href="documentos/ClaudiaBelforteCv.pdf"> Descarga mi CV</a>
             </div>
-            
+            <img src="img/claucv.gif" alt="">
+        </div>
+        </div>
+        
+        </section>
+        <div class="container-tecnologias">
+                
+                
+            <br>
+              <h4>TECNOLOGÍAS QUE MANEJO</h4>
               
-              <div class="container-tecnologias">
-                
-                
               <br>
-                <h4>Tecnologías que manejo</h4>
-                
-                <br>
-                <div class="banner">
-                    
-                    <div class="banner-item"> <p class="banner-txt">HTML5 <br><i style="color: #e62646;" class="fab fa-html5"></i></p> </div>
-                    <div class="banner-item"> <p class="banner-txt">CSS3 <br><i style="color: rgb(39, 110, 218);" id="css" class="fab fa-css3-alt"></i></p> </div>
-                    <div class="banner-item"> <p class="banner-txt">JAVASCRIPT <br><i style="color: rgb(238, 238, 58);" class="fab fa-js-square"></i></p> </div>
-                    <div class="banner-item"> <p class="banner-txt">BOOTSTRAP <br><i style="color: purple;" class="fab fa-bootstrap"></i></p></div>
-                    <div class="banner-item"> <p class="banner-txt">GIT <br> <i style="color: rgb(206, 77, 37);" class="fab fa-git-alt"></i></p> </div>
-                </div>
-             </div>
-             <div class="skew-arriba"></div>
-          </div>
-          
-         </div>
-         <div class="skew-abajo"></div>
-    </section>
+              <div class="banner">
+                  
+                  <div class="banner-item"> <p class="banner-txt">HTML5 <br><i style="color: #e62646;" class="fab fa-html5"></i></p> </div>
+                  <div class="banner-item"> <p class="banner-txt">CSS3 <br><i style="color: rgb(39, 110, 218);" id="css" class="fab fa-css3-alt"></i></p> </div>
+                  <div class="banner-item"> <p class="banner-txt">JAVASCRIPT <br><i style="color: rgb(238, 238, 58);" class="fab fa-js-square"></i></p> </div>
+                  <div class="banner-item"> <p class="banner-txt">BOOTSTRAP <br><i style="color: purple;" class="fab fa-bootstrap"></i></p></div>
+                  <div class="banner-item"> <p class="banner-txt">GIT <br> <i style="color: rgb(206, 77, 37);" class="fab fa-git-alt"></i></p> </div>
+              </div>
+           </div>
+    
     
     <section id="proyectos" class="proyectos">
         <div class="skew-arriba"></div>
@@ -121,19 +109,30 @@
         </div>
         <div class="skew-abajo"></div>
     </section>
-
-    <section id="micv" class="micv">
-        <div> <h2>Mi CV</h2>
-        <hr>
-        <div class="cv">
-        <div class="boton">
-            <p>Podés descargar mi CV y ver tanto mis datos, como mi formación académica, mucho más detallada.
-            </p> <button>Descarga mi CV</button> 
+    <section id="acerca" class="acerca">
+        <div class="titulo-acerca">
+         <h2>Acerca de mí</h2>
+         <hr>
         </div>
-        <img src="img/claucv.gif" alt="">
-    </div>
-    </div>
     
+         <div class="box-acerca">
+          <div class="card-acerca">
+            <div class="card-img"><img src="img/claupc.gif" alt="" ></div>
+            <div class="acerca-text">
+             <p>¡Hola! Gracias por visitar mi portfolio.
+                Mi nombre es <b>Claudia</b>, tengo 25 años, vivo de CABA, Argentina y actualmente soy estudiante autodidacta de desarrollo Front-end. 
+                Quiero desarrollar mi carrera en IT porque es lo que más me apasiona ya que me considero muy entusiasta y creativa, y siento que esta carrera permite dejar fluir todas mis cualidades y me permite esplotar al 100% mi creatividad. 
+                
+              </p>
+              <p>El desarrollo web es una parte fundamental de mi día a día y lo que más quisiera hacer es poder vivir de ello.</p>
+              
+            </div>
+            
+             <div class="skew-arriba"></div>
+          </div>
+          
+         </div>
+         <div class="skew-abajo"></div>
     </section>
     
     <footer id="footer" class="footer">
@@ -146,12 +145,34 @@
                     <hr>
                 </div>
                 <div class="formulario-content">
-                    <form action="" id="formulario">
-                        <input type="text" id="user" placeholder="Nombre">
-                        <input type="email" id="email" placeholder="Email">
-                        <textarea name="mensaje" id="mensaje" cols="30" placeholder="Envíame un mensaje"
+                    <form action="index.php" id="formulario">
+                        <input type="text" id="user" name="nombre" placeholder="Nombre">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <textarea name="mensaje" id="mensaje" name="mensaje" cols="30" placeholder="Envíame un mensaje"
                             rows="10"></textarea>
                         <div class="send"><button>Enviar</button></div>
+                        <?php
+                    if($_SERVER["REQUEST_METHOD"] == "POST")
+                    {
+                        $nombre = $_POST["nombre"] ;
+                        $email = $_POST["email"] ;
+                        $mensaje = $_POST["mensaje"] ;
+                        if(isset($nombre))
+                         {
+                            if(isset($email))
+                            {
+                                if(isset($mensaje)) {
+                                    $para = "claubelforte@gmail.com";
+                                    $asunto = "portfolio";
+                                    $cuerpo = $nombre."\n".$email."\n".$mensaje;
+                                    $adicional = "From : claubelforte@gmail.com";
+
+                                    mail($para,$asunto,$cuerpo,$adicional);
+                                }
+                            }
+                        }
+                    }
+                     ?>
                     </form>
                 </div>
                 <div class="footer-text">
